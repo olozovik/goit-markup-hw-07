@@ -674,10 +674,6 @@ body {
 
 .agreement {
   margin-bottom: 30px;
-  display: block;
-}
-
-.agreement-wrapper {
   display: flex;
   align-items: center;
   margin-left: 13px;
@@ -709,8 +705,8 @@ body {
   display: block;
 }
 
-.agreement-wrapper:hover,
-.agreement-wrapper:hover .agreement-svg {
+.agreement:hover,
+.agreement:hover .agreement-svg {
   cursor: pointer;
   fill: var(--accent-color);
 }
