@@ -677,20 +677,10 @@ body {
   display: block;
 }
 
-.agreement-text {
+.agreement-wrapper {
   display: flex;
   align-items: center;
-  padding-left: 12px;
-
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--main-text-color);
-}
-
-.agreement-link {
-  color: var(--accent-color);
-  text-decoration-line: underline;
+  margin-left: 13px;
 }
 
 .agreement-checkbox {
@@ -707,24 +697,42 @@ body {
   overflow: hidden;
 }
 
-.agreement-text::before {
-  margin-right: 8px;
-
-  content: '';
-  display: inline-block;
-  width: 16px;
-  height: 15px;
-
-  background-image: url(../images/unchecked.svg);
-  background-size: cover;
-  border-radius: 2px;
+.agreement-checked {
+  display: none;
 }
 
-.agreement-checkbox:checked + .agreement-text::before {
-  background-color: var(--accent-color);
-  background-image: url(../images/checked.svg);
-  background-size: cover;
-  border-radius: 2px;
+.agreement-checkbox:checked ~ .agreement-unchecked {
+  display: none;
+}
+
+.agreement-checkbox:checked ~ .agreement-checked {
+  display: block;
+}
+
+.agreement-wrapper:hover,
+.agreement-wrapper:hover .agreement-svg {
+  cursor: pointer;
+  fill: var(--accent-color);
+}
+
+.agreement-checkbox:focus ~ .agreement-svg {
+  fill: var(--accent-color);
+}
+
+.agreement-text {
+  display: flex;
+  align-items: center;
+  padding-left: 7px;
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.agreement-link {
+  color: var(--accent-color);
+  text-decoration-line: underline;
 }
 
 .form-btn {
