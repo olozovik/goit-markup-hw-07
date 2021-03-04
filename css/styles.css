@@ -335,16 +335,17 @@ body {
   left: 0;
   bottom: 0;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  padding-top: 27px;
-  padding-bottom: 27px;
+  height: 70px;
 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-align: center;
   color: var(--white-text-color);
 
   background-color: var(--activities-overlay-color);
