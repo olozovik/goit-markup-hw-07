@@ -323,3 +323,133 @@ body {
 
   background-color: var(--activities-overlay-color);
 }
+
+/* Наша команда */
+
+.team {
+  background-color: var(--secondary-bg-color);
+}
+
+.team__list {
+  margin-top: -30px;
+  margin-left: -30px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team__item {
+  margin-top: 30px;
+  margin-left: 30px;
+
+  flex-basis: calc(100% / 4 - 30px);
+
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: var(--main-bg-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.team__content {
+  padding-top: 30px;
+  padding-right: 32px;
+  padding-bottom: 30px;
+  padding-left: 32px;
+
+  text-align: center;
+}
+
+.team__name {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.team__position {
+  margin-bottom: 16px;
+
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  color: var(--team-svg-color);
+  border-radius: 50%;
+
+  transition: color var(--duration) var(--timing-function),
+    background-color var(--duration) var(--timing-function);
+}
+
+.social__svg {
+  fill: currentColor;
+}
+
+.social__link:hover,
+.social__link:focus {
+  color: var(--team-svg-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Постоянные клиенты */
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  text-align: center;
+}
+
+.clients__list {
+  margin-right: -30px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clients__item {
+  margin-right: 30px;
+}
+
+.clients__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+
+  color: var(--team-svg-color);
+
+  border-radius: 4px;
+  border: 1px solid var(--team-svg-color);
+
+  transition: color var(--duration) var(--timing-function),
+    border-color var(--duration) var(--timing-function);
+}
+
+.clients__icon {
+  fill: currentColor;
+}
+
+.clients__link:hover,
+.clients__link:focus {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
