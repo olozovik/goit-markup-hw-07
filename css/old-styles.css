@@ -9,56 +9,6 @@
   color: var(--title-text-color);
 }
 
-/* Benefits */
-
-.benefits {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.benefits-list {
-  margin-top: -30px;
-  margin-left: -30px;
-
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.benefits-item {
-  margin-top: 30px;
-  margin-left: 30px;
-
-  flex-basis: calc(100% / 4 - 30px);
-}
-
-.benefits-cover {
-  margin-bottom: 30px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 270px;
-  height: 120px;
-
-  border-radius: 4px;
-  background-color: var(--secondary-bg-color);
-}
-
-.benefits-item-title {
-  margin-bottom: 10px;
-
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-.benefits-item-text {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-
 /* Чем мы занимаемся */
 
 .activities {
