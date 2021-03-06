@@ -399,7 +399,7 @@ body {
     background-color var(--duration) var(--timing-function);
 }
 
-.social__svg {
+.social__icon {
   fill: currentColor;
 }
 

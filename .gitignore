@@ -2,6 +2,7 @@
 .prettierrc.yaml
 .htmlhintrc
 .stylelintrc.yaml
+.vscode
 
 
 
