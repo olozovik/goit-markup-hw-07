@@ -1,0 +1,50 @@
+.activities {
+  padding-top: 0;
+}
+
+.activities__list {
+  margin-top: -30px;
+  margin-left: -30px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.activities__item {
+  margin-top: 30px;
+  margin-left: 30px;
+
+  flex-basis: calc(100% / 3 - 30px);
+}
+
+.activities__thumb {
+  position: relative;
+  height: 294px;
+}
+
+.activities__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.activities__overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+
+  background-color: var(--activities-overlay-color);
+}
