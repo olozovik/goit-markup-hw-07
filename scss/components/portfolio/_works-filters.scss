@@ -1,15 +1,15 @@
-.filters {
+.works-filters {
   margin-bottom: 50px;
 
   display: flex;
   justify-content: center;
 }
 
-.filters__item:not(:last-child) {
+.works-filters__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.filters__button {
+.works-filters__button {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-right: 22px;

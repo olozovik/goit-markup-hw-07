@@ -1071,17 +1071,17 @@ body {
   text-decoration-line: underline;
 }
 
-.filters {
+.works-filters {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
 
-.filters__item:not(:last-child) {
+.works-filters__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.filters__button {
+.works-filters__button {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-right: 22px;
@@ -1097,47 +1097,47 @@ body {
   background-color: var(--secondary-bg-color);
   transition: background-color var(--duration) var(--timing-function), color var(--duration) var(--timing-function), box-shadow var(--duration) var(--timing-function);
 }
-.filters__button:hover, .filters__button:focus {
+.works-filters__button:hover, .works-filters__button:focus {
   background-color: var(--accent-color);
   color: var(--white-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.works__list {
+.works-list {
   margin-top: -30px;
   margin-left: -30px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.works__item {
+.works-list__item {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc(100% / 3 - 30px);
 }
 
-.works__link {
+.works-list__link {
   display: block;
   transition: box-shadow var(--duration) var(--timing-function);
 }
-.works__link:hover, .works__link:focus {
+.works-list__link:hover, .works-list__link:focus {
   outline: none;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.works__thumb {
+.works-list__thumb {
   position: relative;
   height: 294px;
   overflow: hidden;
 }
 
-.works__image {
+.works-list__image {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.works__overlay {
+.works-list__overlay {
   position: absolute;
   top: 100%;
   left: 0;
@@ -1151,11 +1151,11 @@ body {
   background-color: var(--works-overlay-color);
   transition: transform var(--duration) var(--timing-function);
 }
-.works__link:hover .works__overlay, .works__link:focus .works__overlay {
+.works-list__link:hover .works-list__overlay, .works-list__link:focus .works-list__overlay {
   transform: translateY(-100%);
 }
 
-.works__content {
+.works-list__content {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 24px;
@@ -1165,7 +1165,7 @@ body {
   border-bottom: 1px solid var(--border-color-works);
 }
 
-.works__subtitle {
+.works-list__subtitle {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -1174,7 +1174,7 @@ body {
   color: var(--title-text-color);
 }
 
-.works__type {
+.works-list__type {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
