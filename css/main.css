@@ -477,7 +477,7 @@ body {
   color: var(--white-text-color);
 }
 
-.footer {
+.page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--footer-bg-color);
@@ -489,7 +489,7 @@ body {
 }
 
 .footer__main-wrapper {
-  margin-right: 86px;
+  margin-right: 85px;
 }
 
 .footer__logo {
@@ -984,7 +984,7 @@ body {
   fill: var(--accent-color);
 }
 
-.form__group--comment {
+.form__group--textarea {
   margin-bottom: 20px;
 }
 
@@ -1011,6 +1011,25 @@ body {
 .form__textarea:focus {
   outline: none;
   border-color: var(--accent-color);
+}
+
+.form__btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 55px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white-text-color);
+  background-color: var(--form-btn-bg-color);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.form__btn:active {
+  outline: none;
 }
 
 .agreement {
@@ -1050,25 +1069,6 @@ body {
 .agreement__link {
   color: var(--accent-color);
   text-decoration-line: underline;
-}
-
-.form__btn {
-  display: block;
-  margin: 0 auto;
-  padding: 10px 55px;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: var(--white-text-color);
-  background-color: var(--form-btn-bg-color);
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-.form__btn:active {
-  outline: none;
 }
 
 .filters {
