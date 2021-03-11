@@ -1,22 +1,15 @@
-.clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
-
-  text-align: center;
-}
-
-.clients__list {
+.clients-list {
   margin-right: -30px;
 
   display: flex;
   flex-wrap: wrap;
 }
 
-.clients__item {
+.clients-list__item {
   margin-right: 30px;
 }
 
-.clients__link {
+.clients-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,6 +31,6 @@
   }
 }
 
-.clients__icon {
+.clients-list__icon {
   fill: currentColor;
 }

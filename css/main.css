@@ -826,23 +826,17 @@ body {
   fill: currentColor;
 }
 
-.clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  text-align: center;
-}
-
-.clients__list {
+.clients-list {
   margin-right: -30px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.clients__item {
+.clients-list__item {
   margin-right: 30px;
 }
 
-.clients__link {
+.clients-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -853,12 +847,12 @@ body {
   border: 1px solid var(--team-svg-color);
   transition: color var(--duration) var(--timing-function), border-color var(--duration) var(--timing-function);
 }
-.clients__link:hover, .clients__link:focus {
+.clients-list__link:hover, .clients-list__link:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 
-.clients__icon {
+.clients-list__icon {
   fill: currentColor;
 }
 
