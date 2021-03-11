@@ -1,3 +1,18 @@
-@import './base/base';
-@import './utils/utils';
-@import './components/components';
+@import './base/modern-normalize';
+@import './base/defualts-styles';
+@import './base/variables';
+
+@import './components/common/common';
+@import './components/common/title';
+@import './components/common/header';
+@import './components/common/footer';
+
+@import './components/studio/hero';
+@import './components/studio/features';
+@import './components/studio/activities';
+@import './components/studio/team';
+@import './components/studio/clients';
+@import './components/studio/order-modal';
+
+@import './components/portfolio/portfolio-filters';
+@import './components/portfolio/portfolio-works';

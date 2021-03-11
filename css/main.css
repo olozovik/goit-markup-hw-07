@@ -356,6 +356,10 @@ body {
   background-color: var(--main-bg-color);
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -518,7 +522,7 @@ body {
 }
 
 .footer__main-wrapper {
-  margin-right: 70px;
+  margin-right: 86px;
 }
 
 .footer__logo {
