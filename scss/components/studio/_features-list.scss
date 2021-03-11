@@ -1,4 +1,4 @@
-.features__list {
+.features-list {
   margin-top: -30px;
   margin-left: -30px;
 
@@ -6,14 +6,14 @@
   flex-wrap: wrap;
 }
 
-.features__item {
+.features-list__item {
   margin-top: 30px;
   margin-left: 30px;
 
   flex-basis: calc(100% / 4 - 30px);
 }
 
-.features__cover {
+.features-list__cover {
   margin-bottom: 30px;
 
   display: flex;
@@ -26,7 +26,7 @@
   background-color: var(--secondary-bg-color);
 }
 
-.features__subtitle {
+.features-list__subtitle {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -37,7 +37,7 @@
   color: var(--title-text-color);
 }
 
-.features__text {
+.features-list__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
