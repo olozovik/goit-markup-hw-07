@@ -1,8 +1,4 @@
-.activities {
-  padding-top: 0;
-}
-
-.activities__list {
+.activities-list {
   margin-top: -30px;
   margin-left: -30px;
 
@@ -10,25 +6,25 @@
   flex-wrap: wrap;
 }
 
-.activities__item {
+.activities-list__item {
   margin-top: 30px;
   margin-left: 30px;
 
   flex-basis: calc(100% / 3 - 30px);
 }
 
-.activities__thumb {
+.activities-list__thumb {
   position: relative;
   height: 294px;
 }
 
-.activities__image {
+.activities-list__image {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.activities__overlay {
+.activities-list__overlay {
   position: absolute;
   left: 0;
   bottom: 0;

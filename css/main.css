@@ -7,7 +7,6 @@ Document
 /**
 Use a more readable tab size (opinionated).
 */
-/* line 12, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 :root {
   -moz-tab-size: 4;
   tab-size: 4;
@@ -17,7 +16,6 @@ Use a more readable tab size (opinionated).
 1. Correct the line height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
 */
-/* line 22, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -32,7 +30,6 @@ Sections
 /**
 Remove the margin in all browsers.
 */
-/* line 36, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 body {
   margin: 0;
 }
@@ -40,7 +37,6 @@ body {
 /**
 Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 */
-/* line 44, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
@@ -53,7 +49,6 @@ Grouping content
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
 */
-/* line 60, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 hr {
   height: 0;
   /* 1 */
@@ -68,7 +63,6 @@ Text-level semantics
 /**
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
-/* line 74, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 abbr[title] {
   text-decoration: underline dotted;
 }
@@ -76,7 +70,6 @@ abbr[title] {
 /**
 Add the correct font weight in Edge and Safari.
 */
-/* line 82, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 b,
 strong {
   font-weight: bolder;
@@ -86,12 +79,11 @@ strong {
 1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 2. Correct the odd 'em' font sizing in all browsers.
 */
-/* line 92, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -100,7 +92,6 @@ pre {
 /**
 Add the correct font size in all browsers.
 */
-/* line 105, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 small {
   font-size: 80%;
 }
@@ -108,7 +99,6 @@ small {
 /**
 Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
 */
-/* line 113, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -117,12 +107,10 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 121, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 125, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 sup {
   top: -0.5em;
 }
@@ -135,7 +123,6 @@ Tabular data
 1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
 2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
 */
-/* line 139, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 table {
   text-indent: 0;
   /* 1 */
@@ -151,7 +138,6 @@ Forms
 1. Change the font styles in all browsers.
 2. Remove the margin in Firefox and Safari.
 */
-/* line 154, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 button,
 input,
 optgroup,
@@ -171,7 +157,6 @@ textarea {
 Remove the inheritance of text transform in Edge and Firefox.
 1. Remove the inheritance of text transform in Firefox.
 */
-/* line 170, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 button,
 select {
   /* 1 */
@@ -181,18 +166,16 @@ select {
 /**
 Correct the inability to style clickable types in iOS and Safari.
 */
-/* line 180, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+[type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
 }
 
 /**
 Remove the inner border and padding in Firefox.
 */
-/* line 191, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 ::-moz-focus-inner {
   border-style: none;
   padding: 0;
@@ -201,7 +184,6 @@ Remove the inner border and padding in Firefox.
 /**
 Restore the focus styles unset by the previous rule.
 */
-/* line 200, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 :-moz-focusring {
   outline: 1px dotted ButtonText;
 }
@@ -210,7 +192,6 @@ Restore the focus styles unset by the previous rule.
 Remove the additional ':invalid' styles in Firefox.
 See: https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737
 */
-/* line 209, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 :-moz-ui-invalid {
   box-shadow: none;
 }
@@ -218,7 +199,6 @@ See: https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d4
 /**
 Remove the padding so developers are not caught out when they zero out 'fieldset' elements in all browsers.
 */
-/* line 217, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 legend {
   padding: 0;
 }
@@ -226,7 +206,6 @@ legend {
 /**
 Add the correct vertical alignment in Chrome and Firefox.
 */
-/* line 225, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 progress {
   vertical-align: baseline;
 }
@@ -234,7 +213,6 @@ progress {
 /**
 Correct the cursor style of increment and decrement buttons in Safari.
 */
-/* line 233, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
   height: auto;
@@ -244,8 +222,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
 */
-/* line 243, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
-[type='search'] {
+[type=search] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -255,7 +232,6 @@ Correct the cursor style of increment and decrement buttons in Safari.
 /**
 Remove the inner padding in Chrome and Safari on macOS.
 */
-/* line 252, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -264,7 +240,6 @@ Remove the inner padding in Chrome and Safari on macOS.
 1. Correct the inability to style clickable types in iOS and Safari.
 2. Change font properties to 'inherit' in Safari.
 */
-/* line 261, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -279,7 +254,6 @@ Interactive
 /*
 Add the correct display in Chrome and Safari.
 */
-/* line 275, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 summary {
   display: list-item;
 }
@@ -289,19 +263,16 @@ summary {
 /*------------------ МОИ ИЗМЕНЕНИЯ ------------------------*/
 /*------------------ МОИ ИЗМЕНЕНИЯ ------------------------*/
 /*------------------ МОИ ИЗМЕНЕНИЯ ------------------------*/
-/* line 285, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 html {
   box-sizing: border-box;
 }
 
-/* line 289, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_modern-normalize.scss */
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
 
-/* line 1, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_defualts-styles.scss */
 h1,
 h2,
 h3,
@@ -311,32 +282,27 @@ h6 {
   margin: 0;
 }
 
-/* line 10, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_defualts-styles.scss */
 p {
   margin: 0;
 }
 
-/* line 14, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_defualts-styles.scss */
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-/* line 20, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_defualts-styles.scss */
 a {
   text-decoration: none;
   color: currentColor;
 }
 
-/* line 25, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_defualts-styles.scss */
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 31, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_defualts-styles.scss */
 .visually-hidden, .agreement__checkbox {
   position: absolute;
   width: 1px;
@@ -350,7 +316,6 @@ img {
   overflow: hidden;
 }
 
-/* line 1, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/base/_variables.scss */
 :root {
   --main-text-color: #757575;
   --title-text-color: #212121;
@@ -379,7 +344,6 @@ img {
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* line 1, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_common.scss */
 body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -387,13 +351,15 @@ body {
   background-color: var(--main-bg-color);
 }
 
-/* line 1, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_section.scss */
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-/* line 1, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_containter.scss */
+.section--activities {
+  padding-top: 0;
+}
+
 .container {
   width: 1200px;
   margin-left: auto;
@@ -402,41 +368,34 @@ body {
   padding-right: 15px;
 }
 
-/* line 1, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_header.scss */
 .page-header {
   border-bottom: 1px solid var(--border-color);
 }
 
-/* line 5, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_header.scss */
 .page-header__container {
   display: flex;
   align-items: center;
 }
 
-/* line 10, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_header.scss */
 .page-header__nav {
   display: flex;
   align-items: center;
 }
 
-/* line 15, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_header.scss */
 .page-header__logo {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-/* line 22, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_header.scss */
 .menu {
   display: flex;
 }
 
-/* line 26, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_header.scss */
 .menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
-/* line 30, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_header.scss */
 .menu__link {
   display: block;
   padding-top: 32px;
@@ -448,23 +407,17 @@ body {
   color: var(--title-text-color);
   transition: color var(--duration) var(--timing-function);
 }
-
-/* line 43, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_header.scss */
 .menu__link:hover, .menu__link:focus {
   color: var(--accent-color);
 }
-
-/* line 48, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_header.scss */
 .menu__link--current {
   position: relative;
   color: var(--accent-color);
 }
-
-/* line 53, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_header.scss */
 .menu__link--current::after {
   position: absolute;
   display: block;
-  content: '';
+  content: "";
   width: 100%;
   height: 4px;
   background-color: var(--accent-color);
@@ -472,18 +425,15 @@ body {
   bottom: -1px;
 }
 
-/* line 67, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_header.scss */
 .contacts {
   margin-left: auto;
   display: flex;
 }
 
-/* line 72, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_header.scss */
 .contacts__item:last-child {
   margin-left: 50px;
 }
 
-/* line 76, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_header.scss */
 .contacts__link {
   display: flex;
   align-items: center;
@@ -496,19 +446,15 @@ body {
   color: currentColor;
   transition: color var(--duration) var(--timing-function);
 }
-
-/* line 90, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_header.scss */
 .contacts__link:hover, .contacts__link:focus {
   color: var(--accent-color);
 }
 
-/* line 96, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_header.scss */
 .contacts__icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-/* line 1, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_logo.scss */
 .logo {
   display: block;
   font-family: Raleway, sans-serif;
@@ -519,40 +465,33 @@ body {
   color: var(--accent-color);
 }
 
-/* line 12, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_logo.scss */
 .logo__studio--black {
   color: var(--black-text-color);
 }
 
-/* line 16, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_logo.scss */
 .logo__studio--white {
   color: var(--white-text-color);
 }
 
-/* line 1, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--footer-bg-color);
 }
 
-/* line 7, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .footer__container {
   display: flex;
   align-items: baseline;
 }
 
-/* line 12, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .footer__main-wrapper {
   margin-right: 86px;
 }
 
-/* line 16, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .footer__logo {
   margin-bottom: 20px;
 }
 
-/* line 20, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .address {
   font-size: 14px;
   font-style: inherit;
@@ -561,40 +500,33 @@ body {
   color: var(--white-text-color);
 }
 
-/* line 28, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .address__text {
   margin-bottom: 9px;
 }
 
-/* line 32, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-/* line 36, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .address__link {
   color: var(--address-color-link);
   transition: color var(--duration) var(--timing-function);
 }
 
-/* line 41, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .address__link:hover,
 .address__link:focus {
   color: var(--accent-color);
 }
 
-/* line 46, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .footer__follow-wrapper {
   display: flex;
   align-items: flex-start;
 }
 
-/* line 51, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .follow {
   margin-right: 93px;
 }
 
-/* line 55, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .follow__title {
   margin-bottom: 20px;
   font-weight: 700;
@@ -605,17 +537,14 @@ body {
   color: var(--white-text-color);
 }
 
-/* line 66, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .follow__list {
   display: flex;
 }
 
-/* line 70, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .follow__item:not(:last-child) {
   margin-right: 10px;
 }
 
-/* line 74, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .follow__link {
   display: flex;
   justify-content: center;
@@ -628,18 +557,15 @@ body {
   transition: background-color var(--duration) var(--timing-function);
 }
 
-/* line 89, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .follow__icon {
   fill: currentColor;
 }
 
-/* line 93, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .follow__link:hover,
 .follow__link:focus {
   background-color: var(--accent-color);
 }
 
-/* line 98, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .subscribe__call {
   margin-bottom: 20px;
   font-weight: 700;
@@ -650,13 +576,11 @@ body {
   color: var(--white-text-color);
 }
 
-/* line 109, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .subscribe__form {
   display: flex;
   align-items: center;
 }
 
-/* line 114, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .subscribe__input {
   margin-right: 12px;
   width: 358px;
@@ -672,18 +596,15 @@ body {
   transition: border-color var(--duration) var(--timing-function);
 }
 
-/* line 133, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .subscribe__input::placeholder {
   color: var(--address-color-link);
 }
 
-/* line 137, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .subscribe__input:focus {
   outline: none;
   border-color: var(--accent-color);
 }
 
-/* line 142, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .subscribe__btn {
   display: flex;
   justify-content: space-between;
@@ -701,12 +622,10 @@ body {
   cursor: pointer;
 }
 
-/* line 161, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_footer.scss */
 .subscribe__icon {
   margin-left: 10px;
 }
 
-/* line 1, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/common/_title.scss */
 .title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -717,7 +636,6 @@ body {
   color: var(--title-text-color);
 }
 
-/* line 1, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_hero.scss */
 .hero {
   max-width: 1600px;
   margin: 0 auto;
@@ -731,7 +649,6 @@ body {
   background-size: cover;
 }
 
-/* line 22, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_hero.scss */
 .hero__title {
   margin-bottom: 30px;
   font-weight: 900;
@@ -742,7 +659,6 @@ body {
   color: var(--white-text-color);
 }
 
-/* line 33, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_hero.scss */
 .order-btn {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -759,7 +675,6 @@ body {
   background-color: var(--accent-color);
 }
 
-/* line 1, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_features-list.scss */
 .features-list {
   margin-top: -30px;
   margin-left: -30px;
@@ -767,14 +682,12 @@ body {
   flex-wrap: wrap;
 }
 
-/* line 9, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_features-list.scss */
 .features-list__item {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc(100% / 4 - 30px);
 }
 
-/* line 16, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_features-list.scss */
 .features-list__cover {
   margin-bottom: 30px;
   display: flex;
@@ -786,7 +699,6 @@ body {
   background-color: var(--secondary-bg-color);
 }
 
-/* line 29, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_features-list.scss */
 .features-list__subtitle {
   margin-bottom: 10px;
   font-weight: 700;
@@ -797,48 +709,37 @@ body {
   color: var(--title-text-color);
 }
 
-/* line 40, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_features-list.scss */
 .features-list__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-/* line 1, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_activities.scss */
-.activities {
-  padding-top: 0;
-}
-
-/* line 5, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_activities.scss */
-.activities__list {
+.activities-list {
   margin-top: -30px;
   margin-left: -30px;
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 13, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_activities.scss */
-.activities__item {
+.activities-list__item {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc(100% / 3 - 30px);
 }
 
-/* line 20, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_activities.scss */
-.activities__thumb {
+.activities-list__thumb {
   position: relative;
   height: 294px;
 }
 
-/* line 25, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_activities.scss */
-.activities__image {
+.activities-list__image {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* line 31, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_activities.scss */
-.activities__overlay {
+.activities-list__overlay {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -856,12 +757,10 @@ body {
   background-color: var(--activities-overlay-color);
 }
 
-/* line 1, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_team.scss */
 .team {
   background-color: var(--secondary-bg-color);
 }
 
-/* line 5, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_team.scss */
 .team__list {
   margin-top: -30px;
   margin-left: -30px;
@@ -869,7 +768,6 @@ body {
   flex-wrap: wrap;
 }
 
-/* line 13, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_team.scss */
 .team__item {
   margin-top: 30px;
   margin-left: 30px;
@@ -880,7 +778,6 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-/* line 26, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_team.scss */
 .team__content {
   padding-top: 30px;
   padding-right: 32px;
@@ -889,7 +786,6 @@ body {
   text-align: center;
 }
 
-/* line 35, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_team.scss */
 .team__name {
   margin-bottom: 10px;
   font-weight: 500;
@@ -899,7 +795,6 @@ body {
   color: var(--title-text-color);
 }
 
-/* line 45, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_team.scss */
 .team__position {
   margin-bottom: 16px;
   font-size: 16px;
@@ -907,13 +802,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* line 53, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_team.scss */
 .social {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 58, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_team.scss */
 .social__link {
   display: flex;
   justify-content: center;
@@ -924,38 +817,31 @@ body {
   border-radius: 50%;
   transition: color var(--duration) var(--timing-function), background-color var(--duration) var(--timing-function);
 }
-
-/* line 71, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_team.scss */
 .social__link:hover, .social__link:focus {
   color: var(--team-svg-white-color);
   background-color: var(--accent-color);
 }
 
-/* line 78, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_team.scss */
 .social__icon {
   fill: currentColor;
 }
 
-/* line 1, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_clients.scss */
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
   text-align: center;
 }
 
-/* line 8, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_clients.scss */
 .clients__list {
   margin-right: -30px;
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 15, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_clients.scss */
 .clients__item {
   margin-right: 30px;
 }
 
-/* line 19, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_clients.scss */
 .clients__link {
   display: flex;
   justify-content: center;
@@ -967,19 +853,15 @@ body {
   border: 1px solid var(--team-svg-color);
   transition: color var(--duration) var(--timing-function), border-color var(--duration) var(--timing-function);
 }
-
-/* line 34, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_clients.scss */
 .clients__link:hover, .clients__link:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 
-/* line 41, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_clients.scss */
 .clients__icon {
   fill: currentColor;
 }
 
-/* line 1, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .order__backdrop {
   position: fixed;
   top: 0;
@@ -993,7 +875,6 @@ body {
   transition: opacity var(--duration) var(--timing-function), visibility var(--duration) var(--timing-function);
 }
 
-/* line 18, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .order__modal {
   position: absolute;
   z-index: 10;
@@ -1009,7 +890,6 @@ body {
   transition: transform var(--duration) var(--timing-function);
 }
 
-/* line 37, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .order__close-btn {
   position: absolute;
   top: 8px;
@@ -1024,40 +904,31 @@ body {
   background-color: var(--main-bg-color);
   cursor: pointer;
 }
-
-/* line 53, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .order__close-btn:active {
   outline: none;
 }
 
-/* line 58, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .order__close-icon {
   transition: fill var(--duration) var(--timing-function);
 }
 
-/* line 63, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .order__close-btn:hover .order__close-icon {
   fill: var(--accent-color);
 }
-
-/* line 67, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .order__close-btn:focus .order__close-icon {
   fill: var(--accent-color);
 }
 
-/* line 72, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
 
-/* line 78, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .is-hidden .order__modal {
   transform: translate(-50%, -50%) scale(1.1);
 }
 
-/* line 82, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .order__call {
   margin-bottom: 12px;
   font-weight: 700;
@@ -1068,20 +939,17 @@ body {
   color: var(--title-text-color);
 }
 
-/* line 94, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .form__group {
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
 }
 
-/* line 101, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .form__label {
   display: flex;
   flex-direction: column;
 }
 
-/* line 106, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .form__title {
   margin-bottom: 4px;
   font-size: 12px;
@@ -1090,12 +958,10 @@ body {
   color: var(--main-text-color);
 }
 
-/* line 115, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .form__input-wrapper {
   position: relative;
 }
 
-/* line 119, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .form__input {
   padding: 12px 16px 12px 42px;
   width: 100%;
@@ -1108,14 +974,11 @@ body {
   border-radius: 4px;
   transition: border-color var(--duration) var(--timing-function);
 }
-
-/* line 134, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .form__input:focus {
   outline: none;
   border-color: var(--accent-color);
 }
 
-/* line 140, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .form__icon {
   position: absolute;
   top: 50%;
@@ -1123,18 +986,14 @@ body {
   transform: translateY(-50%);
   transition: fill var(--duration) var(--timing-function);
 }
-
-/* line 148, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .form__input:focus + .form__icon {
   fill: var(--accent-color);
 }
 
-/* line 153, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .form__group--comment {
   margin-bottom: 20px;
 }
 
-/* line 157, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .form__textarea {
   padding: 12px 16px;
   width: 448px;
@@ -1148,8 +1007,6 @@ body {
   border-radius: 4px;
   transition: border-color var(--duration) var(--timing-function);
 }
-
-/* line 173, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .form__textarea::placeholder {
   font-size: 14px;
   line-height: 1.14;
@@ -1157,13 +1014,11 @@ body {
   color: var(--placeholder-color);
 }
 
-/* line 181, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .form__textarea:focus {
   outline: none;
   border-color: var(--accent-color);
 }
 
-/* line 186, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .agreement {
   margin-bottom: 30px;
   display: flex;
@@ -1171,34 +1026,23 @@ body {
   margin-left: 13px;
 }
 
-/* line 198, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .agreement__icon--checked {
   display: none;
 }
-
-/* line 202, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .agreement__checkbox:checked ~ .agreement__icon--unchecked {
   display: none;
 }
-
-/* line 206, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .agreement__checkbox:checked ~ .agreement__icon--checked {
   display: block;
 }
-
-/* line 210, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
-.agreement__icon .agreement:hover,
-.agreement:hover .agreement__icon {
+.agreement__icon .agreement:hover, .agreement:hover .agreement__icon {
   cursor: pointer;
   fill: var(--accent-color);
 }
-
-/* line 216, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .agreement__checkbox:focus ~ .agreement__icon {
   fill: var(--accent-color);
 }
 
-/* line 221, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .agreement__text {
   display: flex;
   align-items: center;
@@ -1209,13 +1053,11 @@ body {
   color: var(--main-text-color);
 }
 
-/* line 232, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .agreement__link {
   color: var(--accent-color);
   text-decoration-line: underline;
 }
 
-/* line 237, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .form__btn {
   display: block;
   margin: 0 auto;
@@ -1231,25 +1073,20 @@ body {
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-
-/* line 255, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/studio/_order-modal.scss */
 .form__btn:active {
   outline: none;
 }
 
-/* line 1, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/portfolio/_portfolio-filters.scss */
 .filters {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
 
-/* line 8, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/portfolio/_portfolio-filters.scss */
 .filters__item:not(:last-child) {
   margin-right: 8px;
 }
 
-/* line 12, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/portfolio/_portfolio-filters.scss */
 .filters__button {
   padding-top: 6px;
   padding-bottom: 6px;
@@ -1266,15 +1103,12 @@ body {
   background-color: var(--secondary-bg-color);
   transition: background-color var(--duration) var(--timing-function), color var(--duration) var(--timing-function), box-shadow var(--duration) var(--timing-function);
 }
-
-/* line 33, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/portfolio/_portfolio-filters.scss */
 .filters__button:hover, .filters__button:focus {
   background-color: var(--accent-color);
   color: var(--white-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* line 1, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/portfolio/_portfolio-works.scss */
 .works__list {
   margin-top: -30px;
   margin-left: -30px;
@@ -1282,40 +1116,33 @@ body {
   flex-wrap: wrap;
 }
 
-/* line 9, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/portfolio/_portfolio-works.scss */
 .works__item {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc(100% / 3 - 30px);
 }
 
-/* line 16, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/portfolio/_portfolio-works.scss */
 .works__link {
   display: block;
   transition: box-shadow var(--duration) var(--timing-function);
 }
-
-/* line 20, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/portfolio/_portfolio-works.scss */
 .works__link:hover, .works__link:focus {
   outline: none;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-/* line 28, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/portfolio/_portfolio-works.scss */
 .works__thumb {
   position: relative;
   height: 294px;
   overflow: hidden;
 }
 
-/* line 35, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/portfolio/_portfolio-works.scss */
 .works__image {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* line 41, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/portfolio/_portfolio-works.scss */
 .works__overlay {
   position: absolute;
   top: 100%;
@@ -1330,14 +1157,10 @@ body {
   background-color: var(--works-overlay-color);
   transition: transform var(--duration) var(--timing-function);
 }
-
-/* line 59, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/portfolio/_portfolio-works.scss */
-.works__link:hover .works__overlay,
-.works__link:focus .works__overlay {
+.works__link:hover .works__overlay, .works__link:focus .works__overlay {
   transform: translateY(-100%);
 }
 
-/* line 65, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/portfolio/_portfolio-works.scss */
 .works__content {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -1348,7 +1171,6 @@ body {
   border-bottom: 1px solid var(--border-color-works);
 }
 
-/* line 76, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/portfolio/_portfolio-works.scss */
 .works__subtitle {
   margin-bottom: 4px;
   font-weight: 700;
@@ -1358,7 +1180,6 @@ body {
   color: var(--title-text-color);
 }
 
-/* line 86, D:/GOIT/projects/html-css/goit-markup-hw-07/scss/components/portfolio/_portfolio-works.scss */
 .works__type {
   font-size: 16px;
   line-height: 1.88;
